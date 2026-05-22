@@ -109,14 +109,10 @@ select {
   font-weight: 700;
 }
 
-.brand span {
-  display: grid;
-  place-items: center;
+.brand img {
   width: 34px;
   height: 34px;
-  color: white;
-  background: var(--ink);
-  border-radius: 8px;
+  flex: 0 0 auto;
 }
 
 .site-header nav {
@@ -177,6 +173,7 @@ select {
 .hero-copy h1 {
   margin-top: 18px;
   max-width: 780px;
+  overflow-wrap: break-word;
   font-size: clamp(64px, 11vw, 148px);
   font-weight: 700;
   line-height: 0.88;
@@ -607,7 +604,7 @@ select {
 .poster-one {
   top: 116px;
   left: 38px;
-  width: 48%;
+  width: 47%;
   height: 330px;
   background: linear-gradient(135deg, #1261fc 0%, #090c21 58%, #ff6f91 100%);
 }
@@ -615,8 +612,8 @@ select {
 .poster-two {
   right: 38px;
   bottom: 44px;
-  width: 48%;
-  height: 360px;
+  width: 46%;
+  height: 330px;
   color: var(--ink);
   background: linear-gradient(135deg, #d8ff3e 0%, #ffffff 48%, #b5c9ff 100%);
 }
@@ -637,13 +634,14 @@ select {
   left: 42px;
   bottom: 48px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 8px;
-  width: 46%;
+  width: 38%;
+  z-index: 3;
 }
 
 .mini-grid span {
-  padding: 16px 14px;
+  padding: 15px 18px;
   color: rgba(9, 12, 33, 0.78);
   background: rgba(255, 255, 255, 0.82);
   border-radius: 8px;
@@ -1492,7 +1490,6 @@ select {
   border-color: rgba(9, 12, 33, 0.08);
 }
 
-.brand span,
 .direction-item,
 .about-grid p,
 .cohort-card,
@@ -2343,7 +2340,7 @@ footer span {
   }
 
   .mini-grid {
-    width: 58%;
+    width: 38%;
   }
 
   .section,

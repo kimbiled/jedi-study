@@ -16,7 +16,7 @@ export function Header({ consultationId = "application" }) {
   return (
     <header className="site-header">
       <a className="brand" href="/" aria-label="Jedikuna Study">
-        <span>J</span>
+        <img src="/logo-jedikuna.svg" alt="" />
         Jedikuna Study
       </a>
       <nav>
