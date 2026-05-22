@@ -18,7 +18,7 @@ export const nextCohorts = {
   ai: {
     course: "AI-Powered Product Designer",
     start: "5 августа",
-    duration: "6 месяцев",
+    duration: "6.5 месяцев",
     format: "cohort + реальные проекты",
     seats: "8 мест",
     applicationId: "ai-application",

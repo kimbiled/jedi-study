@@ -9,7 +9,7 @@ export function VisualBoard() {
         transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}
       >
         <span>Portfolio Sprint</span>
-        <strong>24 weeks</strong>
+        <strong>26 weeks</strong>
       </motion.div>
       <div className="poster poster-one">
         <span>Brand</span>

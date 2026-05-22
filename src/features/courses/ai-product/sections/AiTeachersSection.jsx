@@ -11,8 +11,8 @@ export function AiTeachersSection() {
       <div className="mentor-grid">
         {aiTeachers.map((teacher) => (
           <Reveal className="mentor-panel" key={teacher.name}>
-            <div className="mentor-photo" style={{ "--accent": teacher.accent }}>
-              {teacher.initials}
+            <div className="mentor-photo teacher-photo" style={{ "--accent": teacher.accent }}>
+              {teacher.photo ? <img src={teacher.photo} alt={teacher.name} /> : teacher.initials}
             </div>
             <div>
               <h3>{teacher.name}</h3>

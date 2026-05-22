@@ -17,7 +17,7 @@ export function AiHeroSection() {
           </div>
           <h1>AI-Powered Product Designer</h1>
           <p>
-            6-месячная программа для дизайнеров, которые хотят вырасти до Junior+/Middle, освоить
+            6.5-месячная программа для дизайнеров, которые хотят вырасти до Junior+/Middle, освоить
             продуктовый подход, AI-инструменты и реальные проекты.
           </p>
         </Reveal>
@@ -50,7 +50,7 @@ export function AiHeroSection() {
         </div>
         <div className="ai-side-card">
           <span>160h</span>
-          <b>24 weeks</b>
+          <b>26 weeks</b>
         </div>
       </Reveal>
     </section>

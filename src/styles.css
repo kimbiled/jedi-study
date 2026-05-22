@@ -172,11 +172,11 @@ select {
 
 .hero-copy h1 {
   margin-top: 18px;
-  max-width: 780px;
+  max-width: 980px;
   overflow-wrap: break-word;
-  font-size: clamp(64px, 11vw, 148px);
+  font-size: clamp(58px, 8vw, 116px);
   font-weight: 700;
-  line-height: 0.88;
+  line-height: 0.92;
 }
 
 .hero-lead {
@@ -1355,6 +1355,18 @@ select {
   font-weight: 700;
 }
 
+.teacher-photo {
+  overflow: hidden;
+  padding: 0;
+}
+
+.teacher-photo img {
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+  object-fit: cover;
+}
+
 .mentor-panel h3,
 .result-card h3 {
   font-size: 32px;
@@ -1424,6 +1436,48 @@ select {
 
 .grant-action {
   margin-top: 18px;
+}
+
+.grant-info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.grant-info-card {
+  min-height: 260px;
+  padding: 24px;
+  background: white;
+  border: 1px solid rgba(9, 12, 33, 0.1);
+  border-radius: var(--radius);
+}
+
+.grant-info-card.dark {
+  color: white;
+  background: var(--ink);
+}
+
+.grant-info-card h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.grant-info-card ul {
+  display: grid;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.grant-info-card li {
+  color: rgba(9, 12, 33, 0.72);
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.grant-info-card.dark li {
+  color: rgba(255, 255, 255, 0.76);
 }
 
 .section-visual-row {
@@ -2235,7 +2289,7 @@ footer span {
   }
 
   .hero-copy h1 {
-    font-size: clamp(56px, 20vw, 84px);
+    font-size: clamp(52px, 15vw, 76px);
   }
 
   .course-hero-copy h1 {
@@ -2472,7 +2526,8 @@ footer span {
   .weekly-grid,
   .month-grid,
   .ai-skills-grid,
-  .grant-steps {
+  .grant-steps,
+  .grant-info-grid {
     grid-template-columns: 1fr;
   }
 

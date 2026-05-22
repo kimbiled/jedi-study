@@ -1,7 +1,7 @@
 import { Button } from "antd";
 import { ArrowRight } from "lucide-react";
 import { Reveal } from "../../../../components/Reveal.jsx";
-import { grantSteps } from "../data/aiProductData.js";
+import { grantConditions, grantCriteria, grantSteps } from "../data/aiProductData.js";
 
 export function AiGrantsSection() {
   return (
@@ -23,6 +23,24 @@ export function AiGrantsSection() {
           </div>
         ))}
       </Reveal>
+      <div className="grant-info-grid">
+        <Reveal className="grant-info-card">
+          <h3>Критерии отбора</h3>
+          <ul>
+            {grantCriteria.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+        </Reveal>
+        <Reveal className="grant-info-card dark">
+          <h3>Особые условия</h3>
+          <ul>
+            {grantConditions.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+        </Reveal>
+      </div>
       <Reveal className="grant-action">
         <Button type="primary" size="large" icon={<ArrowRight size={18} />}>
           Узнать подробности и подать заявку на грант в WhatsApp

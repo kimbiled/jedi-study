@@ -25,7 +25,7 @@ export function AiProductCoursePage() {
       <Header consultationId="ai-application" />
       <CourseStickyCta
         title="AI Product Designer"
-        meta="6 месяцев · 160 часов · стажировка"
+        meta="6.5 месяцев · 160 часов · стажировка"
         applicationId="ai-application"
       />
       <AiHeroSection />

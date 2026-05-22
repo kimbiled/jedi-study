@@ -12,7 +12,7 @@ export function AiSkillsSection() {
     <section className="section program-section">
       <Reveal className="section-heading">
         <span className="section-kicker">Что вы освоите</span>
-        <h2>Что вы освоите за 6 месяцев</h2>
+        <h2>Что вы освоите за 6.5 месяцев</h2>
       </Reveal>
       <Reveal className="program-grid ai-skills-grid">
         {skills.map((item, index) => (
