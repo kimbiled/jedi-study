@@ -294,7 +294,7 @@ select {
 
 .visual-board {
   position: relative;
-  min-height: 650px;
+  min-height: 640px;
   overflow: hidden;
   border-radius: 8px;
   background:
@@ -590,6 +590,15 @@ select {
   box-shadow: 0 26px 70px rgba(9, 12, 33, 0.18);
 }
 
+.poster-one {
+  justify-content: flex-start;
+}
+
+.poster-one b {
+  margin-top: auto;
+  margin-bottom: 22px;
+}
+
 .poster span {
   font-size: 14px;
   font-weight: 700;
@@ -597,23 +606,25 @@ select {
 }
 
 .poster b {
-  font-size: 92px;
+  font-size: clamp(64px, 6vw, 82px);
   line-height: 0.85;
 }
 
 .poster-one {
   top: 116px;
   left: 38px;
-  width: 47%;
-  height: 330px;
+  width: 50%;
+  height: 315px;
   background: linear-gradient(135deg, #1261fc 0%, #090c21 58%, #ff6f91 100%);
 }
 
 .poster-two {
   right: 38px;
-  bottom: 44px;
-  width: 46%;
-  height: 330px;
+  top: 330px;
+  bottom: auto;
+  width: 50%;
+  height: 230px;
+  z-index: 4;
   color: var(--ink);
   background: linear-gradient(135deg, #d8ff3e 0%, #ffffff 48%, #b5c9ff 100%);
 }
@@ -631,20 +642,29 @@ select {
 }
 
 .mini-grid {
-  left: 42px;
-  bottom: 48px;
+  left: 38px;
+  right: 38px;
+  top: 576px;
+  bottom: auto;
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 8px;
-  width: 38%;
-  z-index: 3;
+  width: auto;
+  z-index: 6;
 }
 
 .mini-grid span {
-  padding: 15px 18px;
-  color: rgba(9, 12, 33, 0.78);
-  background: rgba(255, 255, 255, 0.82);
+  display: grid;
+  place-items: center;
+  min-height: 42px;
+  padding: 8px 12px;
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(9, 12, 33, 0.08);
   border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  box-shadow: 0 16px 48px rgba(9, 12, 33, 0.08);
 }
 
 .section {

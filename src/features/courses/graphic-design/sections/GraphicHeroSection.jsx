@@ -1,8 +1,8 @@
-import { Button } from "antd";
-import { ArrowRight, BookOpen, Play } from "lucide-react";
-import { Reveal } from "../../../../components/Reveal.jsx";
-import { useScrollToSection } from "../../../../hooks/useScrollToSection.js";
-import { courseHighlights } from "../data/graphicDesignData.js";
+import { Button } from 'antd';
+import { ArrowRight, BookOpen, Play } from 'lucide-react';
+import { Reveal } from '../../../../components/Reveal.jsx';
+import { useScrollToSection } from '../../../../hooks/useScrollToSection.js';
+import { courseHighlights } from '../data/graphicDesignData.js';
 
 export function GraphicHeroSection() {
   const scrollToSection = useScrollToSection();
@@ -17,8 +17,8 @@ export function GraphicHeroSection() {
           </div>
           <h1>Графический дизайн с нуля</h1>
           <p>
-            Освойте востребованную профессию, соберите первые работы в портфолио и начните
-            зарабатывать на дизайне.
+            Освойте востребованную профессию, соберите первые работы в портфолио
+            и начните зарабатывать на дизайне.
           </p>
         </Reveal>
 
@@ -33,11 +33,15 @@ export function GraphicHeroSection() {
             type="primary"
             size="large"
             icon={<ArrowRight size={18} />}
-            onClick={() => scrollToSection("course-application")}
+            onClick={() => scrollToSection('course-application')}
           >
             Оставить заявку
           </Button>
-          <Button size="large" icon={<Play size={18} />} onClick={() => scrollToSection("program")}>
+          <Button
+            size="large"
+            icon={<Play size={18} />}
+            onClick={() => scrollToSection('program')}
+          >
             Смотреть программу
           </Button>
         </Reveal>
@@ -51,11 +55,6 @@ export function GraphicHeroSection() {
         <div className="course-poster secondary">
           <span>Portfolio</span>
           <strong>01</strong>
-        </div>
-        <div className="course-tool-strip">
-          {["AI", "SMM", "Logo", "Type", "Motion"].map((item) => (
-            <span key={item}>{item}</span>
-          ))}
         </div>
       </Reveal>
     </section>

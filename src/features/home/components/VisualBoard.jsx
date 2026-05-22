@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { Sparkles } from "lucide-react";
 
 export function VisualBoard() {
   return (
@@ -20,16 +19,8 @@ export function VisualBoard() {
         <span>UX Flow</span>
         <b>02</b>
       </div>
-      <motion.div
-        className="orbit-card"
-        animate={{ y: [0, -12, 0] }}
-        transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-      >
-        <Sparkles size={18} />
-        AI tools
-      </motion.div>
       <div className="mini-grid">
-        {["Figma", "Brief", "Review", "Client"].map((item) => (
+        {["AI", "SMM", "Logo", "Type", "Motion"].map((item) => (
           <span key={item}>{item}</span>
         ))}
       </div>
