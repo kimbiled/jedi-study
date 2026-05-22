@@ -52,11 +52,6 @@ export function AiHeroSection() {
           <span>160h</span>
           <b>24 weeks</b>
         </div>
-        <div className="ai-stack">
-          {["Research", "Figma", "AI Studio", "Claude MCP", "Webflow"].map((item) => (
-            <span key={item}>{item}</span>
-          ))}
-        </div>
       </Reveal>
     </section>
   );

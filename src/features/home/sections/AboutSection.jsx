@@ -1,5 +1,4 @@
 import { Reveal } from "../../../components/Reveal.jsx";
-import { VisualAccent } from "../../../components/VisualAccent.jsx";
 
 export function AboutSection() {
   return (
@@ -24,14 +23,6 @@ export function AboutSection() {
           Студенты проходят обучение в живом формате, получают обратную связь от наставников,
           делают проекты в портфолио и получают доступ к комьюнити, заказам и вакансиям.
         </p>
-      </Reveal>
-      <Reveal className="section-visual-row">
-        <VisualAccent
-          title="Practice"
-          label="learning model"
-          variant="blue"
-          items={["Live calls", "Mentors", "Portfolio", "Community"]}
-        />
       </Reveal>
     </section>
   );

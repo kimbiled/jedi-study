@@ -67,8 +67,8 @@ export const tariffs = [
   },
   {
     title: "Групповое наставничество",
-    price: "349 990 ₸",
-    monthly: "или 29 160 ₸ / мес",
+    price: "369 990 ₸",
+    monthly: "или 30 830 ₸ / мес",
     tone: "blue",
     items: [
       "«Я сам» в подарок",

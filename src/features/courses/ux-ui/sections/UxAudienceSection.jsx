@@ -1,5 +1,4 @@
 import { Reveal } from "../../../../components/Reveal.jsx";
-import { VisualAccent } from "../../../../components/VisualAccent.jsx";
 import { uxAudience } from "../data/uxUiData.js";
 
 export function UxAudienceSection() {
@@ -24,14 +23,6 @@ export function UxAudienceSection() {
           </Reveal>
         ))}
       </div>
-      <Reveal className="section-visual-row">
-        <VisualAccent
-          title="UX/UI"
-          label="career switch"
-          variant="light"
-          items={["Research", "Flow", "Prototype", "No-code"]}
-        />
-      </Reveal>
     </section>
   );
 }

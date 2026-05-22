@@ -1,5 +1,4 @@
 import { Reveal } from "../../../../components/Reveal.jsx";
-import { VisualAccent } from "../../../../components/VisualAccent.jsx";
 import { weeklyFormat } from "../data/aiProductData.js";
 
 export function AiFormatSection() {
@@ -27,14 +26,6 @@ export function AiFormatSection() {
       </div>
       <Reveal>
         <p className="format-note">Записи созвонов сохраняются и остаются доступными студентам.</p>
-      </Reveal>
-      <Reveal className="section-visual-row">
-        <VisualAccent
-          title="AI OS"
-          label="weekly workflow"
-          variant="dark"
-          items={["Office hours", "AI tools", "Client work", "Portfolio"]}
-        />
       </Reveal>
     </section>
   );

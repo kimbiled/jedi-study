@@ -2,7 +2,6 @@ import { Footer } from "../../components/Footer.jsx";
 import { Header } from "../../components/Header.jsx";
 import { CareerPathSection } from "../courses/shared/CareerPathSection.jsx";
 import { LearningPlatformSection } from "../courses/shared/LearningPlatformSection.jsx";
-import { StudentProofSection } from "../courses/shared/StudentProofSection.jsx";
 import { AboutSection } from "./sections/AboutSection.jsx";
 import { ApplicationSection } from "./sections/ApplicationSection.jsx";
 import { CoursesSection } from "./sections/CoursesSection.jsx";
@@ -24,7 +23,6 @@ export function HomePage() {
       <CareerPathSection />
       <MentorsSection />
       <ShowcaseSection />
-      <StudentProofSection title="Сгенерированная витрина кейсов на основе результатов студентов" />
       <ResultsSection />
       <ApplicationSection />
       <Footer />

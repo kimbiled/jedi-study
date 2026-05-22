@@ -1,7 +1,6 @@
 import { Button } from "antd";
 import { Check } from "lucide-react";
 import { Reveal } from "../../../components/Reveal.jsx";
-import { VisualAccent } from "../../../components/VisualAccent.jsx";
 import { courses } from "../data/homeData.js";
 
 export function CoursesSection() {
@@ -45,14 +44,6 @@ export function CoursesSection() {
           </Reveal>
         ))}
       </div>
-      <Reveal className="section-visual-row">
-        <VisualAccent
-          title="3 paths"
-          label="study tracks"
-          variant="acid"
-          items={["Graphic", "UX/UI", "AI Product", "Ronin practice"]}
-        />
-      </Reveal>
     </section>
   );
 }

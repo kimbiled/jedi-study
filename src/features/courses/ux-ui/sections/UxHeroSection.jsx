@@ -52,11 +52,6 @@ export function UxHeroSection() {
           <span>Interface</span>
           <b>UI</b>
         </div>
-        <div className="ux-flow-card">
-          {["Brief", "Flow", "Wireframe", "Prototype"].map((item) => (
-            <span key={item}>{item}</span>
-          ))}
-        </div>
       </Reveal>
     </section>
   );

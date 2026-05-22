@@ -1,5 +1,4 @@
 import { Reveal } from "../../../../components/Reveal.jsx";
-import { VisualAccent } from "../../../../components/VisualAccent.jsx";
 import { audience } from "../data/graphicDesignData.js";
 
 export function AudienceSection() {
@@ -18,14 +17,6 @@ export function AudienceSection() {
           </Reveal>
         ))}
       </div>
-      <Reveal className="section-visual-row">
-        <VisualAccent
-          title="Start"
-          label="from zero"
-          variant="blue"
-          items={["Visual", "Type", "Color", "Client brief"]}
-        />
-      </Reveal>
     </section>
   );
 }
