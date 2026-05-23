@@ -43,13 +43,6 @@ export const uxAudience = [
 
 export const uxMentors = [
   {
-    name: "Даниал Алиаскаров",
-    role: "Главный UX/UI дизайнер в Ronin",
-    text: "Будет вести вас от брифа до готового кейса.",
-    initials: "DA",
-    accent: "#1261FC",
-  },
-  {
     name: "Куна Амангали",
     role: "Основатель Jedikuna Study",
     text: "Международный опыт, проекты для Dr. Berg, Disney, Forbes. Обучит вас находить клиентов. @jedikuna",
