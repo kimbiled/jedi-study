@@ -6,7 +6,6 @@ export function AiOutcomesSection() {
   return (
     <section className="section learning-format">
       <Reveal className="section-heading">
-        <span className="section-kicker">Результат после курса</span>
         <h2>После курса у вас будет</h2>
       </Reveal>
       <Reveal className="format-list">

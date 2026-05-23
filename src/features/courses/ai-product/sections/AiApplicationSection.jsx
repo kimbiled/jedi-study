@@ -7,7 +7,6 @@ export function AiApplicationSection() {
   return (
     <section id="ai-application" className="course-application">
       <Reveal className="course-application-copy">
-        <span className="section-kicker">Заявка</span>
         <h2>Хотите понять, подходит ли вам курс?</h2>
         <p>
           Оставьте заявку, и менеджер Jedikuna Study проконсультирует вас по программе, формату,

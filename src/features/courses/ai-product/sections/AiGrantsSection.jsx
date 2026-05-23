@@ -7,7 +7,6 @@ export function AiGrantsSection() {
   return (
     <section className="section grants-section">
       <Reveal className="section-heading">
-        <span className="section-kicker">Гранты и условия отбора</span>
         <h2>Гранты на обучение</h2>
       </Reveal>
       <Reveal>

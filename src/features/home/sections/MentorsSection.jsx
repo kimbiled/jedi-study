@@ -5,14 +5,16 @@ export function MentorsSection() {
   return (
     <section id="mentors" className="section mentors-section">
       <Reveal className="section-heading">
-        <span className="section-kicker">Наставники</span>
         <h2>Кто будет вас учить</h2>
       </Reveal>
       <div className="mentor-grid">
         {mentors.map((mentor) => (
           <Reveal className="mentor-panel" key={mentor.name}>
-            <div className="mentor-photo" style={{ "--accent": mentor.accent }}>
-              {mentor.initials}
+            <div
+              className={`mentor-photo teacher-photo${mentor.name === "Ильяс Мусин" ? " square-photo" : ""}`}
+              style={{ "--accent": mentor.accent }}
+            >
+              {mentor.photo ? <img src={mentor.photo} alt={mentor.name} /> : mentor.initials}
             </div>
             <div>
               <h3>{mentor.name}</h3>

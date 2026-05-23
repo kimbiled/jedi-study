@@ -5,7 +5,6 @@ export function ResultsSection() {
   return (
     <section id="results" className="section results-section">
       <Reveal className="section-heading">
-        <span className="section-kicker">Кейсы</span>
         <h2>Результаты студентов</h2>
       </Reveal>
       <div className="results-grid">

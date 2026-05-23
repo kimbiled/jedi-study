@@ -7,7 +7,6 @@ export function UxApplicationSection() {
   return (
     <section id="ux-application" className="course-application">
       <Reveal className="course-application-copy">
-        <span className="section-kicker">Заявка</span>
         <h2>Остались вопросы?</h2>
         <p>Напишите нашему менеджеру, он лично проконсультирует вас.</p>
       </Reveal>

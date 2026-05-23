@@ -5,7 +5,6 @@ export function CareerPathSection() {
   return (
     <section className="section career-path-section">
       <Reveal className="section-heading">
-        <span className="section-kicker">Путь студента</span>
         <h2>От первого задания до первых заказов</h2>
       </Reveal>
       <div className="career-path-grid">

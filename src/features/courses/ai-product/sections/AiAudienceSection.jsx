@@ -5,7 +5,6 @@ export function AiAudienceSection() {
   return (
     <section className="section course-audience">
       <Reveal className="section-heading">
-        <span className="section-kicker">Для кого курс</span>
         <h2>Кому подойдёт курс</h2>
       </Reveal>
       <div className="audience-grid">

@@ -1,5 +1,5 @@
 import { Button } from "antd";
-import { ArrowRight, Bot, Play } from "lucide-react";
+import { ArrowRight, Play } from "lucide-react";
 import { Reveal } from "../../../../components/Reveal.jsx";
 import { useScrollToSection } from "../../../../hooks/useScrollToSection.js";
 import { aiHighlights } from "../data/aiProductData.js";
@@ -11,10 +11,6 @@ export function AiHeroSection() {
     <section id="top" className="course-hero ai-hero">
       <div className="course-hero-copy">
         <Reveal>
-          <div className="eyebrow">
-            <Bot size={17} />
-            ai · product · middle path
-          </div>
           <h1>AI-Powered Product Designer</h1>
           <p>
             6.5-месячная программа для дизайнеров, которые хотят вырасти до Junior+/Middle, освоить

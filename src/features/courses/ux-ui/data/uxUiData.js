@@ -55,6 +55,7 @@ export const uxMentors = [
     text: "Международный опыт, проекты для Dr. Berg, Disney, Forbes. Обучит вас находить клиентов. @jedikuna",
     initials: "KA",
     accent: "#D8FF3E",
+    photo: "/teacher-kuanysh.jpeg",
   },
 ];
 

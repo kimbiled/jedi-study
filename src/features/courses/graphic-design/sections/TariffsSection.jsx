@@ -10,7 +10,6 @@ export function TariffsSection() {
   return (
     <section id="tariffs" className="section tariffs-section">
       <Reveal className="section-heading">
-        <span className="section-kicker">Тарифы</span>
         <h2>Тарифы</h2>
       </Reveal>
       <div className="tariff-grid">

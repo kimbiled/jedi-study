@@ -12,7 +12,6 @@ export function NextCohortSection({ cohort }) {
   return (
     <section className="section next-cohort-section">
       <Reveal className="section-heading">
-        <span className="section-kicker">Ближайший поток</span>
         <h2>Старт обучения: {cohort.start}</h2>
       </Reveal>
       <Reveal className="cohort-grid">

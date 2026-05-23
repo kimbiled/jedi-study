@@ -63,6 +63,7 @@ export const mentors = [
     text: "Работал с клиентами из США, Австралии, ОАЭ, Сингапура. В портфолио проекты для Dr. Berg, Disney, Forbes. Обучает продуктовому подходу, работе с клиентами, презентации решений и поиску заказов.",
     initials: "KA",
     accent: "#1261FC",
+    photo: "/teacher-kuanysh.jpeg",
   },
   {
     name: "Ильяс Мусин",
@@ -70,6 +71,7 @@ export const mentors = [
     text: "Работал с проектами Digital Almaty, KITF Forum, Enactus World Cup, InDrive, Kazakhtelecom, блогерами и инфлюенсерами. Обучает графическому дизайну, SMM-дизайну, композиции, типографике, колористике и AI-генерации.",
     initials: "IM",
     accent: "#D8FF3E",
+    photo: "/teacher-ilyas.jpeg",
   },
 ];
 

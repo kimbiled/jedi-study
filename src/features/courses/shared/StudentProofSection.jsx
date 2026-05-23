@@ -6,7 +6,6 @@ export function StudentProofSection({ title = "Учебные кейсы сту�
   return (
     <section className="section student-proof-section">
       <Reveal className="section-heading">
-        <span className="section-kicker">Портфолио</span>
         <h2>{title}</h2>
       </Reveal>
       <div className="student-case-grid">

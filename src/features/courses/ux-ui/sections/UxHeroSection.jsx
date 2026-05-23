@@ -1,5 +1,5 @@
 import { Button } from "antd";
-import { ArrowRight, MousePointer2, Play } from "lucide-react";
+import { ArrowRight, Play } from "lucide-react";
 import { Reveal } from "../../../../components/Reveal.jsx";
 import { useScrollToSection } from "../../../../hooks/useScrollToSection.js";
 import { uxHighlights } from "../data/uxUiData.js";
@@ -11,10 +11,6 @@ export function UxHeroSection() {
     <section id="top" className="course-hero ux-hero">
       <div className="course-hero-copy">
         <Reveal>
-          <div className="eyebrow">
-            <MousePointer2 size={17} />
-            ux/ui · web · no-code
-          </div>
           <h1>Станьте UX/UI дизайнером за 2 месяца</h1>
           <p>
             Практический курс по UX/UI и Web для тех, кто хочет выйти на более дорогие проекты и

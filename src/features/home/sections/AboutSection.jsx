@@ -3,7 +3,6 @@ import { Reveal } from "../../../components/Reveal.jsx";
 export function AboutSection() {
   return (
     <section id="about" className="section about-section">
-      <Reveal className="section-kicker">Что такое Jedikuna Study</Reveal>
       <Reveal>
         <h2>
           Практическая онлайн-школа для тех, кто хочет думать, презентовать и работать как

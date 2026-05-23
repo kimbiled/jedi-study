@@ -6,7 +6,6 @@ export function LearningFormatSection() {
   return (
     <section className="section learning-format">
       <Reveal className="section-heading">
-        <span className="section-kicker">Формат обучения</span>
         <h2>Как проходит обучение</h2>
       </Reveal>
       <Reveal className="format-list">

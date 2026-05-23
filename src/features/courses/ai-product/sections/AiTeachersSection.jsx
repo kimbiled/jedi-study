@@ -5,7 +5,6 @@ export function AiTeachersSection() {
   return (
     <section className="section mentors-section">
       <Reveal className="section-heading">
-        <span className="section-kicker">Преподаватели</span>
         <h2>Преподаватели</h2>
       </Reveal>
       <div className="mentor-grid">

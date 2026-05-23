@@ -7,12 +7,12 @@ export function CourseStickyCta({ title, meta, applicationId }) {
 
   return (
     <div className="course-sticky-cta">
-      <div>
+      <div className="course-sticky-copy">
         <span>{title}</span>
         <p>{meta}</p>
       </div>
       <Button type="primary" icon={<ArrowRight size={17} />} onClick={() => scrollToSection(applicationId)}>
-        Заявка
+        <span className="course-sticky-button-label">Заявка</span>
       </Button>
     </div>
   );

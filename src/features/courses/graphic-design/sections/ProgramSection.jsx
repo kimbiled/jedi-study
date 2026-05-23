@@ -11,7 +11,6 @@ export function ProgramSection() {
   return (
     <section id="program" className="section program-section">
       <Reveal className="section-heading">
-        <span className="section-kicker">Что вы изучите</span>
         <h2>Что будет на курсе</h2>
       </Reveal>
       <Reveal className="program-grid">

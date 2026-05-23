@@ -4,7 +4,6 @@ export function UxCasesSection() {
   return (
     <section className="section ux-cases-section">
       <Reveal className="section-heading">
-        <span className="section-kicker">Кейсы</span>
         <h2>100+ успешных кейсов</h2>
       </Reveal>
       <Reveal>

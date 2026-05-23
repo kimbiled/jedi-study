@@ -12,7 +12,6 @@ export function LearningPlatformSection() {
   return (
     <section className="section platform-section">
       <Reveal className="section-heading">
-        <span className="section-kicker">Как выглядит обучение</span>
         <h2>Платформа, созвоны, фидбек и комьюнити в одном процессе</h2>
       </Reveal>
       <Reveal className="platform-mockup">

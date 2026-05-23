@@ -5,7 +5,6 @@ export function AiProgramSection() {
   return (
     <section id="ai-program" className="section ai-program-section">
       <Reveal className="section-heading">
-        <span className="section-kicker">Программа на 6.5 месяцев</span>
         <h2>6.5 месяцев обучения</h2>
       </Reveal>
       <div className="month-grid">

@@ -1,5 +1,5 @@
 import { Button } from "antd";
-import { ArrowRight, CirclePlay } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Reveal } from "../../../components/Reveal.jsx";
 import { useScrollToSection } from "../../../hooks/useScrollToSection.js";
 import { directions } from "../data/homeData.js";
@@ -12,10 +12,6 @@ export function HeroSection() {
     <section id="top" className="hero-section">
       <div className="hero-copy">
         <Reveal>
-          <div className="eyebrow">
-            <CirclePlay size={17} />
-            live cohorts · portfolio · mentorship
-          </div>
           <h1>Jedikuna Study</h1>
           <p className="hero-lead">
             Онлайн-школа дизайна, где вы учитесь на практике, работаете с реальными задачами и

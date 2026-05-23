@@ -7,7 +7,6 @@ export function CoursesSection() {
   return (
     <section id="courses" className="section courses-section">
       <Reveal className="section-heading">
-        <span className="section-kicker">Курсы</span>
         <h2>Выберите свой курс</h2>
       </Reveal>
       <div className="course-grid">

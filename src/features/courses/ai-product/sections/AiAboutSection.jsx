@@ -4,7 +4,6 @@ export function AiAboutSection() {
   return (
     <section className="section ai-about-section">
       <Reveal className="section-heading">
-        <span className="section-kicker">О курсе</span>
         <h2>Хотите перейти в продуктовый дизайн?</h2>
       </Reveal>
       <Reveal className="about-grid ai-about-grid">

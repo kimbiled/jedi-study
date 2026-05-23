@@ -5,7 +5,6 @@ export function AiFormatSection() {
   return (
     <section className="section ai-format-section">
       <Reveal className="section-heading">
-        <span className="section-kicker">Формат обучения</span>
         <h2>Формат обучения</h2>
       </Reveal>
       <Reveal>

@@ -5,14 +5,13 @@ export function UxMentorsSection() {
   return (
     <section className="section mentors-section">
       <Reveal className="section-heading">
-        <span className="section-kicker">Наставники</span>
         <h2>Кто будет вас учить</h2>
       </Reveal>
       <div className="mentor-grid ux-mentor-grid">
         {uxMentors.map((mentor) => (
           <Reveal className="mentor-panel" key={mentor.name}>
-            <div className="mentor-photo" style={{ "--accent": mentor.accent }}>
-              {mentor.initials}
+            <div className={`mentor-photo${mentor.photo ? " teacher-photo" : ""}`} style={{ "--accent": mentor.accent }}>
+              {mentor.photo ? <img src={mentor.photo} alt={mentor.name} /> : mentor.initials}
             </div>
             <div>
               <h3>{mentor.name}</h3>

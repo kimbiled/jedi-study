@@ -5,7 +5,6 @@ export function UxAudienceSection() {
   return (
     <section className="section course-audience">
       <Reveal className="section-heading">
-        <span className="section-kicker">Для кого курс</span>
         <h2>Для кого?</h2>
       </Reveal>
       <Reveal>

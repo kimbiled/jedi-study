@@ -5,7 +5,6 @@ export function AudienceSection() {
   return (
     <section className="section course-audience">
       <Reveal className="section-heading">
-        <span className="section-kicker">Для кого курс</span>
         <h2>Этот курс для вас, если вы:</h2>
       </Reveal>
       <div className="audience-grid">

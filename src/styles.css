@@ -158,18 +158,6 @@ select {
   min-width: 0;
 }
 
-.eyebrow,
-.section-kicker {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  width: fit-content;
-  color: var(--blue);
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
 .hero-copy h1 {
   margin-top: 18px;
   max-width: 980px;
@@ -269,13 +257,20 @@ select {
   box-shadow: 0 18px 60px rgba(9, 12, 33, 0.22);
 }
 
-.course-sticky-cta span {
-  display: block;
-  font-weight: 700;
-  line-height: 1.1;
+.course-sticky-copy {
+  min-width: 0;
 }
 
-.course-sticky-cta p {
+.course-sticky-copy > span {
+  display: block;
+  overflow: hidden;
+  font-weight: 700;
+  line-height: 1.1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.course-sticky-copy p {
   margin-top: 3px;
   color: rgba(255, 255, 255, 0.64);
   font-size: 14px;
@@ -848,6 +843,7 @@ select {
 }
 
 .program-item p {
+  margin-left: auto;
   max-width: 250px;
   font-size: 20px;
   font-weight: 500;
@@ -1365,6 +1361,15 @@ select {
   height: 100%;
   min-height: 300px;
   object-fit: cover;
+}
+
+.square-photo {
+  aspect-ratio: 1;
+  min-height: 0;
+}
+
+.square-photo img {
+  min-height: 0;
 }
 
 .mentor-panel h3,
@@ -2195,6 +2200,34 @@ footer span {
   font-weight: 700;
 }
 
+.course-card-head span,
+.cohort-card svg,
+.audience-card span,
+.format-row svg,
+.weekly-card span,
+.month-card > span,
+.month-card b,
+.mentor-panel span,
+.result-card span,
+.student-case-copy > span,
+.career-step-card span,
+.grant-step span {
+  color: rgba(9, 12, 33, 0.58) !important;
+}
+
+.course-card-head span,
+.weekly-card span {
+  background: rgba(9, 12, 33, 0.06) !important;
+}
+
+.course-card li svg,
+.tariff-card li svg,
+.platform-item svg,
+.showcase-card-copy svg,
+.student-case-copy svg {
+  color: rgba(9, 12, 33, 0.52) !important;
+}
+
 @media (max-width: 1080px) {
   .site-header nav {
     display: none;
@@ -2320,16 +2353,27 @@ footer span {
   }
 
   .course-sticky-cta {
+    left: 10px;
+    right: 10px;
     bottom: 10px;
-    width: min(100% - 20px, 620px);
+    gap: 10px;
+    width: auto;
+    padding: 10px;
+    transform: none;
   }
 
-  .course-sticky-cta p {
+  .course-sticky-copy p {
     display: none;
   }
 
   .course-sticky-cta .ant-btn {
     flex: 0 0 auto;
+    min-width: 0;
+    padding-inline: 12px;
+  }
+
+  .course-sticky-button-label {
+    display: inline;
   }
 
   .student-spotlight {
@@ -2426,7 +2470,34 @@ footer span {
   .section h2,
   .application-copy h2,
   .course-application-copy h2 {
-    font-size: clamp(38px, 12vw, 58px);
+    font-size: clamp(34px, 10vw, 50px);
+  }
+
+  .hero-lead,
+  .course-hero-copy > div:first-child p,
+  .section-lead,
+  .application-copy p,
+  .course-application-copy p {
+    font-size: 20px;
+    line-height: 1.18;
+  }
+
+  .course-card h3,
+  .tariff-card h3,
+  .mentor-panel h3,
+  .result-card h3,
+  .audience-card h3 {
+    font-size: 28px;
+  }
+
+  .course-card p,
+  .tariff-card li,
+  .mentor-panel p,
+  .result-card p,
+  .audience-card p,
+  .format-row,
+  .about-grid p {
+    font-size: 17px;
   }
 
   .audience-card {
@@ -2435,10 +2506,6 @@ footer span {
 
   .audience-card span {
     margin-bottom: 44px;
-  }
-
-  .program-item p {
-    text-align: left;
   }
 
   .course-poster.primary {
@@ -2559,5 +2626,26 @@ footer span {
   footer {
     align-items: flex-start;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 420px) {
+  .course-sticky-cta {
+    gap: 8px;
+    padding: 8px;
+  }
+
+  .course-sticky-copy > span {
+    font-size: 15px;
+  }
+
+  .course-sticky-cta .ant-btn {
+    width: 42px;
+    height: 42px;
+    padding: 0;
+  }
+
+  .course-sticky-button-label {
+    display: none !important;
   }
 }

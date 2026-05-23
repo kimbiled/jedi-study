@@ -1,5 +1,5 @@
 import { Button } from 'antd';
-import { ArrowRight, BookOpen, Play } from 'lucide-react';
+import { ArrowRight, Play } from 'lucide-react';
 import { Reveal } from '../../../../components/Reveal.jsx';
 import { useScrollToSection } from '../../../../hooks/useScrollToSection.js';
 import { courseHighlights } from '../data/graphicDesignData.js';
@@ -11,10 +11,6 @@ export function GraphicHeroSection() {
     <section id="top" className="course-hero">
       <div className="course-hero-copy">
         <Reveal>
-          <div className="eyebrow">
-            <BookOpen size={17} />
-            beginner path · graphic design
-          </div>
           <h1>Графический дизайн с нуля</h1>
           <p>
             Освойте востребованную профессию, соберите первые работы в портфолио

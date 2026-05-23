@@ -12,7 +12,6 @@ export function ShowcaseSection() {
   return (
     <section className="section showcase-section">
       <Reveal className="section-heading">
-        <span className="section-kicker">Витрина работ</span>
         <h2>Студенты собирают портфолио, которое можно показать клиенту</h2>
       </Reveal>
       <div className="showcase-grid">

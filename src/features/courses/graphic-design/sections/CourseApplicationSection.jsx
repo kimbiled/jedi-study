@@ -7,7 +7,6 @@ export function CourseApplicationSection() {
   return (
     <section id="course-application" className="course-application">
       <Reveal className="course-application-copy">
-        <span className="section-kicker">Заявка</span>
         <h2>Остались вопросы?</h2>
         <p>
           Напишите нашему менеджеру, он лично проконсультирует вас и поможет выбрать подходящий
